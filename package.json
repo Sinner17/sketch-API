@@ -1,0 +1,19 @@
+{
+  "name": "sketch-api",
+  "version": "1.0.0",
+  "description": "sketch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinner17/sketch-API.git"
+  },
+  "author": "Mick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinner17/sketch-API/issues"
+  },
+  "homepage": "https://github.com/Sinner17/sketch-API#readme"
+}
