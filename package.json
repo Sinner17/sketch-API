@@ -27,7 +27,11 @@
   },
   "homepage": "https://github.com/Sinner17/sketch-API#readme",
   "devDependencies": {
+    "babel-core": "^7.0.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "mongoose": "^5.4.2",
+    "webpack": "^4.28.1",
     "webpack-cli": "^3.2.1"
   }
 }
