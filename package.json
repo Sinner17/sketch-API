@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Sinner17/sketch-API#readme",
   "devDependencies": {
-    "mongoose": "^5.4.2"
+    "mongoose": "^5.4.2",
+    "webpack-cli": "^3.2.1"
   }
 }
