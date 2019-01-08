@@ -21,12 +21,9 @@ const superAdmin = new Schema({
 
 superAdmin.path("email").validate((value) =>{
   value = value.trim();
-  return value.match(/.*@.*/)
+  return value.match(/\S+@\S+\.\S+/);
 });
 
-superAdmin.pre("save", function(next) {
-  this.options.runValidators = true;
-  next();
-});
+
 
 module.exports = mongoose.model("SuperAdmin",superAdmin);
